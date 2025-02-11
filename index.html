@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Product Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f2f2f2;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background: whitesmoke;
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .logo img{
+
+            object-fit: cover;
+            border-radius: 20px;
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+            background: white;
+            padding: 8px;
+            border-radius: 20px;
+            justify-content: space-between;
+            width: 50%;
+            height: 50px;
+        }
+
+        .search-bar input {
+            border: none;
+            padding: 5px;
+            width: 200px;
+            outline: none;
+            background: transparent;
+        }
+
+        .search-bar select, .search-bar button {
+            border: none;
+            background: white;
+            cursor: pointer;
+            display: flex;
+            width: 50%;
+            height: 50px;
+            align-items: center;
+            padding: 8px;
+            justify-content: space-between;
+            border-radius: 20px;
+        }
+
+        .nav-icons span {
+            margin-left: none;
+            font-size:none;
+    
+            align-items: center;
+            justify-content: space-between;
+            gap:20px ;
+
+            
+        }
+
+        .nav-icons{
+
+             display: flex;
+    background: whitesmoke;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+        }
+
+        .profile {
+             width: 40px;
+    height: 40px;
+        }
+
+        .profile img{
+             width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+        }
+
+        main {
+            height: 80vh;
+            background: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="C:\Users\WILSON AZARIAH\Desktop\mycode\logo.jpg" alt="logo" width="100px" height="50px"  >
+        </div>
+        <div class="search-bar">
+            <select>
+                <option>Categories</option>
+            </select>
+            <input type="text" placeholder="Search">
+            <button>🔍</button>
+        </div>
+        <div class="nav-icons">
+            <span><i class="fa-solid fa-bookmark"></i></span>
+            <span><i class="fa-solid fa-headset"></i></span>
+            <span><i class="fa-solid fa-cart-shopping"></i></span>
+            <span class="profile">
+                <img src="https://th.bing.com/th?id=OIP.IGNf7GuQaCqz_RPq5wCkPgHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2">
+            </span>
+        </div>
+    </header>
+    <script src="https://kit.fontawesome.com/75f0f164c8.js" crossorigin="anonymous"></script>
+    <main></main>
+</body>
+</html>
